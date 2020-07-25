@@ -48,7 +48,7 @@ public class SinCalculator extends AppCompatActivity {
     public void btnClickCalculateHeight(View view) {
         //String valHeight = edtHeight.getText().toString();
         DecimalFormat df = new DecimalFormat("0.000");
-        df.setRoundingMode(RoundingMode.CEILING);
+        //df.setRoundingMode(RoundingMode.CEILING);
 
         double valLength = getDoubleVal(edtLength.getText().toString());
         double valDegree = getDoubleVal(edtDegree.getText().toString());
